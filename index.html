@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio</title>
+    <!--CCS styles-->
+    <link rel="stylesheet" href="./styles.css">
     <!--Bootstrap-->
     <link rel="stylesheet" 
     href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
@@ -17,10 +19,10 @@
 
   <!--codigo barra de navegacion superior-->
    <nav class="navbar navbar-expand-md navbar-dar bg-dark">
-     <a class="navbar-brand" href="index.htlm">Leonardo Real</a>
-
+     <a class= "navbar-brand"  href="index.htlm">Leonardo G Real Castillo</a>
+      
       <button 
-      class="navbar-toggler" 
+      class="navbar-toggler"  
       type="button" 
       data-toggle="collapse"
       data-target="#opcionesBarra" 
@@ -28,8 +30,8 @@
       aria-expanded="false"
       aria-label="toggle navigation"
       >
-    <span class="navbar-toggler-icon"></span>
-    </button>
+      <span class="navbar-toggler-icon"></span>
+      </button>
 
      <div class="collapse navbar-collapse" id="opcionesBarra">
           <div class="navbar-nav ml-auto">
@@ -42,25 +44,83 @@
 
      </div>
 
-   </nav>
-
+    </nav>
+<hr>
    <!--Portada-->
    <section>
      <div class="row">
+           <div class="p-5 bg-color-banano col col-sm-8 ">
+              <h1 class= "text-center display-3">PERFIL LABORAL</h1>
+              <p>Soy Ingeniero industrial con una especializacion en automatizacion industrial y control, me destaco en la areas de planeación 
+                y programación, 16 años de experiencia como coordinador de mantenimiento electrico en industrias papeleras.
 
-        <div class="p-5 bg-primary col col-md-8">
-              <img 
-                src="./fotopersonal1.png"
-                alt="Mi fotopersonal1"
-                width="200"
-               >
-        </div>
-
-           <div class="p-5 bg-danger col col-m-4">
-              <h1>Leonardo Real</h1>
+              </p>
            </div>
+    <!--Fotografia-->
+      <div class="p-4 bg-light col col-md-4 ">
+            <img class="rounded-circle shadow-lg "
+              src="./fotopersonal1.png "
+              alt="Mi fotopersonal1"
+              width="200"
+             >
+             <p class="container">
+               <b>Leonardo G Real Castillo</b> 
+
+             </p>
+      </div>
     </div>
   </section>
+      <hr>
+    <!--Experiencia-->
+        <div class="container">
+          <h2 class="text-center py-5">Experiencia</h2>
+          <div class="row">
+            <div class="col-sm-3"><h5>PELDAR</h5><p>Aprendiz de inatalaciones y mantenimiento electrico</p></div>
+            <div class="col-sm-3"><h5>PAMCOL</h5><p>Electricista encargado de planta.</p></div>
+            <div class="col-sm-3"><h5>GRUPO FAMILIA</h5><p>Planeador de mantenimiento y coordinador de mantenimiento electrico</p></div>
+            <div class="col-sm-3"><h5>WOLTA</h5><p>Coordinador comercial y planeador de proyectos</p></div>
+         </div>
+
+        </div>
+      <hr>
+      <!--Estudios-->
+      <section class="mt-5">
+          <h2 class="text-center py-5">Estudios
+          </h2>
+        <!--Card-->
+        <div class="d-flex flex-wrap justify-content-around">
+
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header">TECNOLOGO</div>
+              <div class="card-body text-primary">
+                <h5 class="card-title">CIDE</h5>
+                <p class="card-text">Tecnologo Mecatronico</p>
+              </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header">TECNOLOGO</div>
+              <div class="card-body text-secondary">
+                <h5 class="card-title">SENA</h5>
+                <p class="card-text">Tecnologo en Automatización y Control</p>
+              </div>
+            </div>
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+              <div class="card-header">PROFESIONAL</div>
+              <div class="card-body text-success">
+                <h5 class="card-title">POLITECNICO GRANCOLOMBIANO</h5>
+                <p class="card-text">Ingeniero Industrial</p>
+              </div>
+            </div>
+            <div class="card border-danger mb-3" style="max-width: 18rem;">
+              <div class="card-header">PROGRAMADOR</div>
+              <div class="card-body text-danger">
+                <h5 class="card-title">BICTIA</h5>
+                <p class="card-text">Programador Junior</p>
+              </div>
+            </div>
+          </div>
+      </section>
+  
   <!--jquery-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" 
